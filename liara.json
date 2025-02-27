@@ -1,8 +1,11 @@
 {
-  "app": "myliara",
-  "port": 80,
-  "build": {
-    "location": "iran"
+  "django": {
+    "mirror": true,
+    "pythonVersion": "3.12",
+    "timezone": "America/Los_Angeles",
+    "compileMessages": false,
+    "modifySettings": true,
+    "geospatial": false
   },
   "disks": [{
       "name": "my-disk",
