@@ -5,7 +5,7 @@
     "location": "iran"
   },
   "disks": [{
-      "name": "sqlite",
-      "mountTo":"data"
+      "name": "my-disk",
+      "mountTo":"database"
   }]
 }
